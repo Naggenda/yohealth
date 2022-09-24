@@ -1,5 +1,5 @@
 import React from "react";
-import woman from '../trends.png';
+import woman from '../download.jpeg';
 
 const Vision = () => {
   return (
