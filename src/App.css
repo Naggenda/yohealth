@@ -1,7 +1,11 @@
 .App p{
   font-size: 20px;
   color: gray;
+}
+
+.vision p{
   padding: 0 0px 20px;
+  margin: 0px;
 }
 
 .App-logo {
@@ -69,6 +73,18 @@
   background: antiquewhite;
 }
 
+.track .card{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: unset;
+  padding: 15px 60px 15px 15px;
+  width: 250px;
+}
+
+p{
+  margin: 0px;
+}
+
 .vision h1{
   font-size: 4rem !important;
 }
@@ -87,4 +103,20 @@
 
 img{
   padding-top: 60px;
+}
+
+@media screen and (max-width: 425px){
+  .row{
+    text-align: center;
+  }
+  .track h2{
+    font-size: 3rem !important;
+    padding-top: 20px;
+  }
+  .vision h1{
+    font-size: 3rem !important;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+  }
 }

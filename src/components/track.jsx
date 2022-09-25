@@ -26,8 +26,8 @@ const Track = () => {
             placeat expedita.
           </p>
           
-          <div className="row">
-             <div className="card col-lg-4 col-md-4 col-sm-6">
+        
+             <div className="card">
              <FaBeer className="icon"/>               
                <p className="small">
                  help is on the way:<br />
@@ -35,7 +35,7 @@ const Track = () => {
                </p>
              </div>
              
-          </div>
+          
         </div>
       </div>
       </div>
