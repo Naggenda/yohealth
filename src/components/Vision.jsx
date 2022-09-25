@@ -1,4 +1,6 @@
 import React from "react";
+// import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import { FaBeer } from 'react-icons/fa';
 import woman from '../download.jpeg';
 
 const Vision = () => {
@@ -9,7 +11,7 @@ const Vision = () => {
           <h1>
             Our <br /> <span style={{ color: "red" }}>vision</span>
           </h1>
-          <img src={woman} />
+          <img src={woman} alt="" />
         </div>
         <div className="col-lg-8 col-md-8 col-sm-12">
           <p>
@@ -36,17 +38,20 @@ const Vision = () => {
             enim.
           </p>
           <div className="row">
-             <div className="card col-lg-4 col-md-4 col-sm-6">
+             <div className="card col-lg-4 col-md-4 col-sm-6 text-center">
+             <FaBeer className="icon"/>               
                <p className="small">
                  i had an accident
                </p>
              </div>
-             <div className="card col-lg-4 col-md-4 col-sm-6">
+             <div className="card col-lg-4 col-md-4 col-sm-6 text-center">
+               <FaBeer className="icon"/>
                <p className="small">
-                 i have an
+                 i have an injury
                </p>
              </div>
-             <div className="card col-lg-4 col-md-4 col-sm-6">
+             <div className="card col-lg-4 col-md-4 col-sm-6 text-center">
+               <FaBeer className="icon"/>
                <p className="small">
                  I am feeling bad
                </p>
@@ -54,6 +59,7 @@ const Vision = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };
