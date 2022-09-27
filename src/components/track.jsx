@@ -1,6 +1,6 @@
 import React from "react";
 // import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
-import { FaBeer } from 'react-icons/fa';
+import { FaAirbnb } from "react-icons/fa";
 import woman from '../download.jpeg';
 
 const Track = () => {
@@ -28,7 +28,7 @@ const Track = () => {
           
         
              <div className="card">
-             <FaBeer className="icon"/>               
+             <FaAirbnb className="icon"/>               
                <p className="small">
                  help is on the way:<br />
                  <small>naggendajoshua@gmail.com</small> 

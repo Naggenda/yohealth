@@ -1,6 +1,8 @@
 import React from "react";
 // import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 import { FaBeer } from 'react-icons/fa';
+import { FaAccessibleIcon } from 'react-icons/fa';
+import { FaHackerrank } from 'react-icons/fa';
 import woman from '../download.jpeg';
 
 const Vision = () => {
@@ -45,13 +47,13 @@ const Vision = () => {
                </p>
              </div>
              <div className="card col-lg-4 col-md-4 col-sm-6 text-center">
-               <FaBeer className="icon"/>
+               <FaAccessibleIcon className="icon"/>
                <p className="small">
                  i have an injury
                </p>
              </div>
              <div className="card col-lg-4 col-md-4 col-sm-6 text-center">
-               <FaBeer className="icon"/>
+               <FaHackerrank className="icon"/>
                <p className="small">
                  I am feeling bad
                </p>
