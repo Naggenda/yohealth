@@ -1,16 +1,16 @@
 import React from "react";
-// import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 import woman from "../download.jpeg";
+
 
 const Mark = () => {
   return (
-    <div className="track">
+    <div className="message">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
             <h2>
-              Just a moment. <br /> keep{" "}
-              <span style={{ color: "red" }}>Tracking</span>
+              Don't be scared. <br /> We've got you{" "}
+              <span style={{ color: "red" }}>covered</span>
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
@@ -19,11 +19,12 @@ const Mark = () => {
               placeat expedita.
             </p>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          <div className="col-lg-6 col-md-6 col-sm-12 image">
             <img src={woman} alt="" />
           </div>
         </div>
       </div>
+
     </div>
   );
 };

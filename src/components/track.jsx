@@ -8,7 +8,7 @@ const Track = () => {
   <div className="track">
     <div className="container">
       <div className="row">
-        <div className="col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-6 col-sm-12 image">
           
           <img src={woman} alt="" />
         </div>

@@ -8,6 +8,10 @@
   margin: 0px;
 }
 
+.image{
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -46,6 +50,31 @@
   color: #61dafb;
 }
 
+.parent1,.parent2,.parent3{
+  border: none;
+  align-items: start;
+}
+
+.parent2{
+  top: 60px; 
+}
+
+.child{
+  padding: 70px 40px;
+  margin-bottom: 45px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+  border: none;
+}
+
+.icons{
+  align-self: center;
+  border-radius: 50%;
+  background: turquoise;
+  color: blue;
+  margin-bottom: 15px;
+  padding: 3px 8px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -71,6 +100,12 @@
   align-items: center;
   position: relative;
   background: antiquewhite;
+}
+
+.message{
+  padding: 75px 0;
+  align-items: center;
+  position: relative;
 }
 
 .track .card{
